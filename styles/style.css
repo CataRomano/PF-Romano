@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#logo{ margin-left: 2%;
+    
+
+}
+
+nav{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(../imgs/imagen\ portada.jpg);
+    background-size: cover;
+    background-position-y: -400px;
+
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.602);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white; 
+
+}
+
+footer p{
+   text-align: center;
+}
+
+h1{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+h3{color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+
+
+h4{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.mapa{
+    text-align: center;
+    
+} 
+
+
+form{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.67);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+ 
+
+}
+
+.quesomos{
+    color: white;
+    padding: 50px
+}
+
+.quesomos1{
+    color: white;
+    text-align: left;
+
+}
+
+#horario{
+    text-align: left;
+    margin-top: 1%;
+}
+
+#direccion{
+    text-align: left;
+    margin-top: 1%;
+}
+
+#telefono{
+    text-align: left;
+    margin-top: 1%;
+}
+
+
+#leyendaportada{
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+  
+}
+
+.descripcionmenu{
+color: white;
+text-decoration: none;
+text-align: center;
+padding: 2%;
+
+}
+
+
+
+
+
