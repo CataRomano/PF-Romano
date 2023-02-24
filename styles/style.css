@@ -29,7 +29,7 @@ nav ul li a{
 }
 
 body{
-    background-image: url(../imgs/imagen\ portada.jpg);
+    /* background-image: url(../imgs/imagen\ portada.jpg); */
     background-size: cover;
     background-position-y: -400px;
 
@@ -120,7 +120,7 @@ form{
 
 #telefono{
     text-align: left;
-    margin-top: 1%;
+    
 }
 
 
@@ -138,8 +138,31 @@ text-align: center;
 padding: 2%;
 
 }
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#contenidoInicio{
+    height: 70vh !important;
+    background-image: url(../imgs/portada.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
 
+#icons i{
+    color: white;
+}
 
-
-
+.quesomos{
+    color: white;
+}
