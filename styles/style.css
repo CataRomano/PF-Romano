@@ -12,10 +12,9 @@ header{
 /* #logo{ margin-left: 2%; */
     
 
-}
 
 nav{
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
 }
 
@@ -38,7 +37,7 @@ body{
 }
 
 
-}
+
 
 
 footer{
