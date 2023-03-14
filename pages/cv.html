@@ -4,59 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" sakana, sushi, comida, trabajo en equipo, amigos">
+    <meta name="description" content="Nos gustaria que formes parte de nuestro equipo de trabajo">
     <link rel="shortcut icon" href="../imgs/favicom.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../styles/style.css">
+   
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <title>Unite a nuestro equipo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+    <title>SAKANA | CV </title>
 </head>
 <body>
-    <header>
-        <a href=""><img id="logo" src="../imgs/Recurso 37-8.png" alt="logo de la marca"></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="catering y eventos.html">Catering y eventos</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="cv.html">cv</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>cv</h1>
-    <form action="">
-        <fieldset>
-            <legend>Escriba su mensaje</legend>
-           <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre">
-           </div>
-           <div>
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido">
-           </div>
-           <div>
-            <label for="mail">Mail</label>
-            <input type="text" name="mail">
-           </div>
-           <div>
-            <label for="adjuntar archivo"></label>
-            <input type="file">
-           </div>
-           <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-           </div>
-        </fieldset>
-    </form>
+    <div class="container-fluid">
+        <div class="col-lg-6">
+            <img src="../imgs/Recurso 37-8.png" class="img-fluid" alt="logo">
+        </div>
+    </div>
+    <!-- nav bar start -->
+    <nav>
+        <ul class="nav justify-content-center p-2 text-uppercase">
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="./menu.html">Menu</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="./catering y eventos.html">Catering y eventos</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+              <a class="nav-link text-center" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+              <a class="nav-link text-center" href="./cv.html">Cv</a>
+          </li>
+        </ul>
+    </nav>
+    <!-- nav bar end -->
+    <!-- content start -->
+    <div class="container-fluid text-center quesomos">
+        <h1>COMPARTINOS TU CV</h1>
+      </div>
+      <form action="/action_page.php" class=" bg-secondary p-1">
+        <div class="mb-3 mt-3">
+          <label for="name" class="form-label">Nombre:</label>
+          <input type="email" class="form-control" id="email" placeholder="Nombre" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="surname" class="form-label ">Apellido:</label>
+          <input type="text" class="form-control" id="surname" placeholder="Apellido" name="pswd">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="text" class="form-control" id="email" placeholder="Email" name="mail">
+          </div>
+          <div class="mb-3">
+            <label for="file" class="form-label">Adjuntar archivo:</label>
+            <input type="file" class="form-control" id="date" placeholder="Adjuntar archivo" name="pswd">
+          </div>
+        <div class="form-check mb-3">
+            <button type="submit" class="btn btn-light ">Enviar</button>
+        </div>
+      </form>
+        
+
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="container-fluid bg-secondary">
+        <div class="col-md-12 d-flex justify-content-center">
+            <p class="text-light p-3"> Todos los derechos reservados </p>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center p-2" id="icons">
+            <i><i class="fa-brands p-2 fa-instagram"></i></i>
+            <i><i class="fa-brands p-2 fa-whatsapp"></i></i>
+        </div>
+        </div>
+    <!-- footer end -->
+
+    <!-- docs boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
 </body>
-<footer>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Buscanos en las redes</p>
-    <i><i class="fa-brands fa-instagram"></i></i>
-    <i><i class="fa-brands fa-whatsapp"></i></i>
-</footer>
 </html>

@@ -4,82 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" sakana, sushi, comida, pescado, mar del plata, eventos, compartir">
+    <meta name="description" content="En Sakana, nuestra misión es ofrecer a nuestros clientes el mejor sushi de la ciudad, utilizando los ingredientes más frescos y de la más alta calidad. Nos esforzamos por mantener los más altos estándares en todo lo que hacemos, desde la preparación de nuestros platos hasta la atención al cliente. Creemos que el sushi no solo es una comida, sino una experiencia, y nos enorgullece ser parte de esa experiencia para nuestros clientes.".>
     <link rel="shortcut icon" href="../imgs/favicom.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <title>Catering y eventos</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+    <title>SAKANA | CATERING Y EVENTOS</title>
 </head>
 <body>
-    <header>
-        <a href=""><img id="logo" src="../imgs/Recurso 37-8.png" alt="logo de la marca"></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="catering y eventos.html">Catering y eventos</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="cv.html">cv</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Catering y eventos</h1>
-    <form action="">
-        <fieldset>
-            <legend>Escribinos</legend>
-            <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre">
-            </div>
-            <div>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido">
-            </div>
-            <div>
-                <label for="telefono">Telefono</label>
-                <input type="text" name="telefono">
-            </div>
-            <div>
-                <label for="evento">Tipo de evento</label>
-                <input type="text" name="evento">
-            </div>
-            <div>
-                <label for="Fecha">Fecha</label>
-                <input type="text" name="fecha">
-            </div>
-            <div>
-                <label for="cantidad">Cantidad</label>
-                <input type="text" name="cantidad">
-            </div>
-            <div>
-                <label for="mensaje">Escribe el mensaje</label>
-                <input type="textarea" name="escribe el mensaje">
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-               </div>
-        </fieldset>
-    </form>
-        </section>
-        <section>
-            <div><!-- imagen --></div>
-            <div><!-- imagen --></div>
-        </section>
-    </main>
-    
-</body>
-<footer>
-    <p>
-        <a href="cv.html">Unite a nuestro equipo</a>
-    </p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Buscanos en las redes</p>
-    <i><i class="fa-brands fa-instagram"></i></i>
-    <i><i class="fa-brands fa-whatsapp"></i></i>
-</footer>
+    <div class="container-fluid">
+        <div class="col-lg-6">
+            <img src="../imgs/Recurso 37-8.png" alt="logo">
+        </div>
+    </div>
+    <!-- nav bar start -->
+    <nav>
+        <ul class="nav justify-content-center p-2 text-uppercase">
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="./menu.html">Menu</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="./catering y eventos.html y eventos.html">Catering y eventos</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+            <a class="nav-link text-center" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+              <a class="nav-link text-center" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item col-12 col-md-4 col-lg-2">
+              <a class="nav-link text-center" href="./cv.html">Cv</a>
+          </li>
+        </ul>
+    </nav>
+      <!-- nav bar end -->
+      
+      <!-- content start -->
+      <div class="container-fluid text-center quesomos">
+        <h1>CATERING Y EVENTOS</h1>
+      </div>
+      <form action="/action_page.php" class="bg-secondary p-3">
+        <div class="mb-3 mt-3">
+          <label for="name" class="form-label">Nombre:</label>
+          <input type="email" class="form-control" id="email" placeholder="nombre" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="surname" class="form-label">Apellido:</label>
+          <input type="text" class="form-control" id="surname" placeholder="apellido" name="pswd">
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Telefono:</label>
+            <input type="text" class="form-control" id="phone" placeholder="telefono" name="pswd">
+          </div>
+          <div class="mb-3">
+            <label for="event" class="form-label">Tipo de evento:</label>
+            <input type="text" class="form-control" id="event" placeholder="tipo de evento" name="pswd">
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Fecha:</label>
+            <input type="text" class="form-control" id="date" placeholder="fecha" name="pswd">
+          </div>
+          <div class="mb-3">
+            <label for="surname" class="form-label">Cantidad de personas:</label>
+            <input type="text" class="form-control" id="surname" placeholder="cantidad de personas" name="pswd">
+          </div>
+        <div class="form-check mb-3">
+            <button type="submit" class="btn btn-light ">Enviar</button>
+        </div>
+      </form>
+        
+
+      <!-- content end -->
+     
+      <!-- footer start -->
+      <div class="container-fluid bg-secondary">
+        <div class="col-md-12 d-flex justify-content-center">
+            <a href="cv.html">Unite a nuestro equipo</a>
+        </div>
+        <div class="container-fluid text-center text-light p-2">
+            <p> Todos los deechos reservados</p>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center p-3" id="icons">
+            <i><i class="fa-brands p-2 fa-instagram"></i></i>
+            <i><i class="fa-brands p-2 fa-whatsapp"></i></i>
+        </div>
+        </div>
+      <!-- footer end -->
+
+        <!-- docs boostrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <body>
 </html>
