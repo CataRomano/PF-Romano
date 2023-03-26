@@ -6,11 +6,10 @@
 
 header {
   background-color: rgba(0, 0, 0, 0.65);
+  background-image: linear-gradient(black 90%, rgba(114, 142, 112, 0.1019607843));
 }
 
-/* #logo{ margin-left: 2%; */
 nav {
-  /* text-align: center; */
   text-transform: uppercase;
 }
 nav ul li {
@@ -22,34 +21,27 @@ nav ul li a {
   color: white;
 }
 
-footer {
-  /* background-color: rgb(126, 43, 43); */
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  color: white;
-}
-
-footer p {
-  text-align: center;
-}
-
 form {
-  text-align: center;
   color: white;
-  background-color: rgb(48, 48, 48);
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 10%;
 }
 
-h3 {
+.formulario {
+  background-color: #728e70 !important;
+  margin-bottom: 10% !important;
+}
+
+h2 {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
 }
 
+.menu p {
+  margin-bottom: 5vh !important;
+}
+
+ 
 h1 {
   text-decoration: none;
   color: white;
@@ -57,9 +49,28 @@ h1 {
   text-transform: uppercase;
 }
 
+.miCarrusel {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.footer {
+  color: white;
+  padding: 10px;
+  background-color: #728e70 !important;
+}
+.footer i:hover {
+  color: rgb(255, 0, 247);
+  transform: scale(110%);
+  text-shadow: 0 0 5px black;
+}
+.footer i:active {
+  transform: scale(100%);
+}
+
 .quesomos {
   color: white;
-  padding: 50px;
+  padding: 30x;
 }
 
 body {
@@ -72,12 +83,38 @@ a {
   text-decoration: none !important;
 }
 
-#icons i {
+.btn-pedido {
+  text-transform: uppercase;
   color: white;
+  padding: 3px;
+  border: 1px solid white;
 }
 
-.quesomos {
-  color: white;
+nav a {
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #728e70;
+  text-shadow: 0 0 5px black;
+  transform: scale(110%);
+}
+nav a:active {
+  transform: scale(100%);
 }
 
-/*# sourceMappingURL=style.css.map */
+.btn-pedido:hover {
+  background-color: #728e70;
+  border-width: 3px;
+  border-color: black;
+  box-shadow: 0 0 10px #728e70;
+  transform: scale(110%);
+  text-shadow: 0 0 5px black;
+}
+
+.btn-pedido:active {
+  transform: scale(100%);
+}
+
+i {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */

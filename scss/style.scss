@@ -1,20 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
- 
+    box-sizing: border-box; 
 }
+
+$verde: #728e70;
 
 header{
     background-color: rgba(0, 0, 0, 0.65);
+    background-image: linear-gradient( black 90%, #728e701a);
 }
 
-/* #logo{ margin-left: 2%; */
-    
-
-
 nav{
-    /* text-align: center; */
     text-transform: uppercase;
 
     ul{
@@ -31,46 +28,34 @@ nav{
     }
 }
 
-
-
-
-    
-
-
-
-
-
-
-
-footer{
-    /* background-color: rgb(126, 43, 43); */
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    color: white; 
-
-}
-
-footer p{
-   text-align: center;
-}
-
-
 @import 'catering y eventos';
 @import 'menu';
 @import 'cv';
 @import 'nosotros';
 @import 'contacto';
 @import 'index';
-    
 
+.footer{
+    color: white; 
+    padding: 10px;
+    background-color: #728e70 !important;
+
+    i:hover{
+        color: rgb(255, 0, 247);
+        transform: scale(110%);
+        text-shadow: 0 0 5px black;
+    }
+    i:active{
+        transform: scale(100%);
+    }
+}
 
 
 
 
 .quesomos{
     color: white;
-    padding: 50px;
+    padding: 30x;
 
 
 }
@@ -89,15 +74,40 @@ a {
 }
 
 
-
-
-#icons i{
-    color: white;
+.btn-pedido{
+    text-transform:uppercase;  
+    color:white;
+    padding: 3px;
+    border: 1px solid white;
 }
 
-.quesomos{
-    color: white;
+nav{
+    a{
+        border-radius: 5px;
+    }
+    a:hover{
+        background-color: $verde;
+        text-shadow: 0 0 5px black;
+        transform: scale(110%);
+    }
+    a:active{
+        transform: scale(100%);
+    }
 }
 
+.btn-pedido:hover{
+    background-color: $verde;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 0 0 10px $verde;
+    transform: scale(110%);
+    text-shadow: 0 0 5px black;
+}
+.btn-pedido:active{
+    transform: scale(100%);
+}
 
+i{
+    font-size: 30px;
+}
 
